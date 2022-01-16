@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TPlay", "TPlay\TPlay.vcxproj", "{39F997EB-9216-4190-B817-39A4DF4F7D87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39F997EB-9216-4190-B817-39A4DF4F7D87}.Debug|x64.ActiveCfg = Debug|x64
+		{39F997EB-9216-4190-B817-39A4DF4F7D87}.Debug|x64.Build.0 = Debug|x64
+		{39F997EB-9216-4190-B817-39A4DF4F7D87}.Release|x64.ActiveCfg = Release|x64
+		{39F997EB-9216-4190-B817-39A4DF4F7D87}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4ED3D343-DB14-4B4A-8B1B-D317411F9D9B}
+	EndGlobalSection
+EndGlobal
