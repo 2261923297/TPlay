@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="TPlay">
+      <UniqueIdentifier>{424ff522-0a72-4735-af48-4acff9d113a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="qt">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{e16ad729-2f56-4177-9f3e-4d7ddd6e0601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pHeader">
+      <UniqueIdentifier>{25196c9c-f8be-4ed1-9403-ad11d98a7f29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MediaPlayer">
+      <UniqueIdentifier>{ea23c1f4-6dc0-4b86-a9fd-16aecf308507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SelectWidget">
+      <UniqueIdentifier>{0b933732-a620-4df6-9717-311ce5bdbff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogPanel">
+      <UniqueIdentifier>{d377c557-df6c-4d3c-a636-03e4f946e932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SelectLabel">
+      <UniqueIdentifier>{5586bef7-d747-430d-a302-7d750681b5da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlayerController">
+      <UniqueIdentifier>{8a9aad18-9e2c-4f89-86a2-61174675982f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="TPlay.qrc">
+      <Filter>qt</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="style.qss">
+      <Filter>qt</Filter>
+    </None>
+    <None Include="TPlay.pro">
+      <Filter>qt</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="TPlay.cpp">
+      <Filter>TPlay</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaPlayer.cpp">
+      <Filter>MediaPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectWidget.cpp">
+      <Filter>SelectWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="LogPanel.cpp">
+      <Filter>LogPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectLabel.cpp">
+      <Filter>SelectLabel</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>PlayerController</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="TPlay.ui">
+      <Filter>qt</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\resources\11.mp4">
+      <Filter>resources</Filter>
+    </Media>
+    <Media Include="..\resources\qhc.mp3">
+      <Filter>resources</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="TPlay.h">
+      <Filter>TPlay</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="util.h">
+      <Filter>pHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaPlayer.h">
+      <Filter>MediaPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectWidget.h">
+      <Filter>SelectWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="LogPanel.h">
+      <Filter>LogPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectLabel.h">
+      <Filter>SelectLabel</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>PlayerController</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
